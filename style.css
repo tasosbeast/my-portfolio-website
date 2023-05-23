@@ -9,7 +9,7 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(./images/robothero.jpg);
+    background-image: url(/blob/2b68caeddc72950f8a89f51f1ce72b022f9d72c4/images/robothero.jpg);
     background-size: cover;
     background-position: center;
 }
