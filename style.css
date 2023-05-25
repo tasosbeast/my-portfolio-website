@@ -215,7 +215,7 @@ form{
     text-align: center;
     background-color: #2c2c2c;
     margin: 0 auto;
-    background-image: url(/images/wave.svg);
+    background-image: url(images/wave.svg);
     background-repeat: no-repeat;
     background-position: bottom;
 }
