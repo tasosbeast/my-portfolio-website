@@ -1,23 +1,31 @@
 *{
-
+    /* Remove default margin and padding */
     margin: 0;
     padding: 0;
+
+    /* Make sure that box-sizing is border-box */
     box-sizing: border-box;
+
+    /* Use a nicer font */
     font-family: 'Montserrat', sans-serif;
 }
 
 html{
+    /* Smooth scrolling */
     scroll-behavior: smooth;
+    /* Font size for mobile devices */
     font-size: 16px;
 
 }
 
-.hero{
+.hero {
     height: 100vh;
     width: 100%;
+    /* Set the background image */
     background-image: url(OIG.axsKDnMmrkOxFM.jpg);
     background-size: cover;
     background-position: center;
+    /* Set the grid */
     display: grid;
     align-items: flex-start;
     grid-template-areas:
@@ -32,11 +40,16 @@ html{
                   ;
 }
 
-nav{
+.nav{
+    /* make the menu items be in a row */
     display: flex;
+    /* add some padding around the menu items */
     padding: 3% 5%;
+    /* make the menu items be evenly spaced apart */
     justify-content: space-between;
+    /* align the menu items to the top of the nav element */
     align-items:flex-start;
+    /* make the nav element take up the entire nav area */
     grid-area: nav;
 }
 
@@ -441,7 +454,7 @@ button:hover{
 
 .contact-me{
     width: 100%;
-    margin auto;
+    margin: auto;
     height: 15rem;
     background-color: #000000;
     display: flex;
@@ -585,8 +598,8 @@ footer p:nth-child(3){
 
 
 ::selection {
-  background: #fdb756;
-  color: #ffffff;
+  background: #fdb756; /* $color-orange-500 */
+  color: #ffffff; /* $color-white */
 }
  
 @media (max-width: 575.98px) {
@@ -629,7 +642,7 @@ footer p:nth-child(3){
   @media (max-width: 900px){
      
   .main{
-    display: flexbox;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -707,7 +720,7 @@ footer p{
       }
 
     .main{
-        display: flexbox;
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
